@@ -1,0 +1,11 @@
+prefix=/home/bornseanghort5/anaconda3/envs/python-mnist
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/bornseanghort5/anaconda3/envs/python-mnist/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
