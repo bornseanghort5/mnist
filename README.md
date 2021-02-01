@@ -1,1 +1,1 @@
-# python-mnist
+# mnist
